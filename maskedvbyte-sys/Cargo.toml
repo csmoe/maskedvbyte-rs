@@ -1,0 +1,20 @@
+
+[package]
+name = "maskedvbyte-sys"
+version = "0.0.1"
+authors = ["csmoe"]
+description = "Low level bindings to MaskedVbyte."
+documentation = "https://docs.rs/maskedvbyte-sys"
+homepage = "https://github.com/csmoe/maskedvbyte-rs"
+repository = "https://github.com/csmoe/maskedvbyte-rs"
+readme = "README.md"
+keywords = ["maskedvbyte", "decoding", "encoding"]
+license = "MIT"
+categories = ["ffi"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.39.0"

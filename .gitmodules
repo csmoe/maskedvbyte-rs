@@ -1,0 +1,3 @@
+[submodule "MaskedVByte"]
+	path = MaskedVByte
+	url = https://github.com/lemire/MaskedVByte
