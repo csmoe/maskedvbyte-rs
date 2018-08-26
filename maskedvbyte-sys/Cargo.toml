@@ -1,7 +1,6 @@
-
 [package]
 name = "maskedvbyte-sys"
-version = "0.0.1"
+version = "0.1.0"
 authors = ["csmoe"]
 description = "Low level bindings to MaskedVbyte."
 documentation = "https://docs.rs/maskedvbyte-sys"
@@ -13,8 +12,6 @@ license = "MIT"
 categories = ["ffi"]
 build = "build.rs"
 
-[dependencies]
-libc = "0.2"
-
 [build-dependencies]
 bindgen = "0.39.0"
+libc = "0.2"
